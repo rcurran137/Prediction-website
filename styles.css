@@ -1,0 +1,119 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #d3d3d3; /* Light gray background */
+    padding: 20px; /* Space around the header */
+    text-align: center; /* Center the text */
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px auto; /* Center the header with auto margins */
+    max-width: 80%; /* Limit the width */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    color: #35424a; /* Text color */
+}
+
+/* Navigation Bar */
+nav {
+    background: #35424a;
+    padding: 15px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Center the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Keep items in a single row */
+    margin: 0 15px; /* Space between items */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px; /* Add some padding around the links */
+    transition: background 0.3s; /* Add a transition effect */
+}
+
+nav a:hover {
+    background: #4a4a4a; /* Change background on hover */
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 2px solid #cccccc; /* Optional border */
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: center; /* Center the content */
+    max-width: 800px; /* Same width as main content */
+    margin: 20px auto; /* Center it */
+    font-style: italic;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #35424a;
+}
+
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+    color: #000000; /* Set text color to black */
+    border: 1px solid #cccccc; /* Optional: add a border */
+    border-radius: 10px; /* Curved edges */
+    padding: 10px; /* Optional: add some padding for spacing */
+    background-color: #f9f9f9; /* Optional: add a background color */
+}
+
+/* Style for the graph container */
+.graph-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 2px solid #cccccc; /* Optional border */
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: center; /* Center the content */
+    max-width: 800px; /* Same width as main content */
+    margin: 20px auto; /* Center it */
+}
+
+/* Style for the color bar */
+.color-bar {
+    background-color: #35424a; /* The same color as the header/nav */
+    height: 20px; /* Thickness of the bar */
+    width: 100%; /* Full width of the page */
+    margin: 20px 0; /* Space between main content and the graph container */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+}
